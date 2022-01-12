@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+        90deg,
+        rgba(131,58,180,1) 40%,
+        rgba(111,15,15,1) 100%,
+        rgba(148,57,29,1) 100%,
+        rgba(252,176,69,1) 100%
+        
+    );
+    display: flex;
+  justify-content: center;
+
+    min-height: 100vh;
+
+}
+
+.clock-box{
+    display: flex;
+     margin-top: 20%;
+ 
+ 
+
+}
+
+.clock{
+    width: 120px;
+    height: 180px;
+    line-height: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-size: 50px;
+
+}
+
+.clock:hover{
+    background-color: blanchedalmond;
+    color: black;
+    transform: translateY(-10px);
+
+}
+
+.clock-box h1{
+    margin-top: 70px;
+}
+
+.title__{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 10%;
+   
+
+}
+
+.date{
+    position: absolute;
+    margin-top: 30%;
+    font-size: 50px;
+
+}
+
