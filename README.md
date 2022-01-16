@@ -1,5 +1,6 @@
 # clock
-javascript
-css
+simple clock making with javascript
+# pages
 html
-#clock
+css 
+JavaScript
