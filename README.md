@@ -1,4 +1,4 @@
-## google-clone
+## clock-js
 
 ## Hello! 👋  
 
